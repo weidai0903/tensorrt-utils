@@ -23,8 +23,7 @@ import argparse
 
 import tensorrt as trt
 
-from utils import get_calibration_files # local module
-from ImagenetCalibrator import ImagenetCalibrator # local module
+from ImagenetCalibrator import ImagenetCalibrator, get_calibration_files # local module
 
 TRT_LOGGER = trt.Logger()
 logging.basicConfig(level=logging.DEBUG,
